@@ -1,0 +1,10 @@
+<div>
+  <h2>Todo List</h2>
+  <ul>
+    @for (todo of todos; track todo) {
+      <li>{{ todo }}</li>
+    }
+  </ul>
+  <input [(ngModel)]="newTodo" placeholder="New todo">
+  <button (click)="addTodo()">Add Todo</button>
+</div>
