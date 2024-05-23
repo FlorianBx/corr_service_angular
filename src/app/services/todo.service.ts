@@ -15,4 +15,6 @@ private todos: string[] = ['Buy groceries', 'Walk the dog'];
   addTodo(todo: string): void {
     this.todos.push(todo);
   }
+
+  //...removeTodo, updateTodo, getTodoById
 }
